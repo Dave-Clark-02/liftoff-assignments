@@ -1,19 +1,33 @@
 # Project Outline
- 
+
 ## Assignment Description
 [Project Outline Assignment](https://education.launchcode.org/liftoff/modules/assignments/project-outline)
 
 ## Submission Instructions
 
 ### Overview
-This is meant to be a home renovation budget estimator. We hope to create a site that people can create profiles, enter detailed item lists, and compare their renovations to others. Currently doing a search online will get you an average cost estimate that in my experience tends to be high and somewhat vague.
-This project aims to provide more in depth information and ways to cross compare that data to allow for a more accurate estimate. Once registered users can quickly search to find other renovations on similarly aged homes and see what materials were purchased.
+I have decided to develop a LAN party application that helps organize and run events. 
+It will be able to keep track of attendance helping with check ins and raffle drawings based on who is still present. 
+Also i will add challonge's API to allow tournament info to be visible and accessible for those participating. Also add a forum or chat 
+section for players to communicate and start games. This software will especially help event organizers run a smoother event 
+and give them quick visual data on whats currently happening.
 ### Features
-User login, user profile, search feature for comparing renovations, posting new renovations to user profile, map search for homes near my location that had similar renovations.
-posting progress pictures to user profile, user able to select items from drop down list to populate a itemized material list that was used on renovation.
+User login: Each user will be able to register allowing for them to create a profile 
+
+Challonge API: implement this into the site to allow users to sign up for and update their tournament information
+
+Forum/message board: place for event organizers and attendees to communicate and cordinate games.
+
+Attendance Manager: system for keeping track of per person check in and possibly a seating chart for visual on who is present 
+and where they're seated.
+
+
 ### Technologies
-Java, JavaScript, maybe angular or react, thymeleaf, gradle, spring boot
+Java
+Spring Boot
+MySQL
+Hibernate
 ### What I'll Have to Learn
-how to connect a front end created in javascript to a backend made in Java. How to pull data to populate project.
+frontend bootstrap and css along with how to implement an API into a project
 ### Project Tracker
-https://trello.com/b/YhlSNZc2/blake-group-project
+https://trello.com/b/iGCH3xKA/liftoff-project
